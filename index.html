@@ -13,11 +13,17 @@
   </head>
   <body>
 
-      <style>
-        .height-50{
-            min-height: 50vh;
+<style>
+    .height-50 {
+        min-height: 50vh;
+    }
+
+    @media only screen and (max-width: 767px) {
+        .box {
+            text-align: center !important;
         }
-      </style>
+    }
+</style>
 
 <!-- <div class="container">
 <div class="row justify-content-between">
@@ -41,23 +47,28 @@
 </div> -->
 
 <div class="container-fluid">
+
+<!-- Row 1 -->
 <div class="row d-flex height-50 p-3">
 
-<!-- item -->
-  <div class="col-lg-6 col-md-6 col-sm-12 text-left">
+  <!-- item -->
+  <div class="box col-lg-6 col-md-6 col-sm-12 text-left">
     Centar<br>
     Rejuvenacijske<br>
     Medicine<br>
   </div>
 
-<!-- item -->
-  <div class="col-lg-6 col-md-6 col-sm-12 text-right">
+  <!-- item -->
+  <div class="box col-lg-6 col-md-6 col-sm-12 text-right">
     <img src="img/ID-Logo-125.png" alt="ID" height="125" width="125">
   </div>
 </div>
 
+<!-- Row 1 -->
 <div class="row d-flex height-50 p-3">
-  <div class="col-lg-6 col-md-6 col-sm-12 text-left align-self-end">
+
+  <!-- item -->
+  <div class="box col-lg-6 col-md-6 col-sm-12 text-left align-self-end">
     dr. Marko Ivanović<br>
     kirurg<br><br>
     info@id-osijek.hr<br>
@@ -66,7 +77,8 @@
     Osijek<br>
   </div>
 
-  <div class="col-lg-6 col-md-6 col-sm-12 text-right align-self-end">
+  <!-- item -->
+  <div class="box col-lg-6 col-md-6 col-sm-12 text-right align-self-end">
     ID društvo s ograničenom odgovornošću za obavljanje zdravstvene djelatnosti kirurgije<br>
     Sjedište i adresa: Josipa Jurja Strossmayera 7, 31000 Osijek<br>
     OIB: 78791772005<br>
